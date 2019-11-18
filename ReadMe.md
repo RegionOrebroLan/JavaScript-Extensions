@@ -44,6 +44,19 @@ If you want to consume packages from the GitHub Package Registry you have to:
 
 Read more: [npmrc - The npm config files](https://docs.npmjs.com/files/npmrc)
 
+## Publish
+
+Before you can publish you need to sign in:
+
+	npm login
+	Username:
+	Password:
+	Email:
+
+Publish to npm:
+
+	npm publish --access public
+
 ## Information
 
 ### TypeScript-bundling
