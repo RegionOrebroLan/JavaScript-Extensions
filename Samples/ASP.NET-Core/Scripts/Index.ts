@@ -1,6 +1,6 @@
-import UriParser from "@hanskindberg-lab/npm-test-package/lib/UriParser";
-import EPiServerServiceProvider from "@hanskindberg-lab/npm-test-package/lib/EPiServer/ServiceProvider";
-import ServiceLocation from "@hanskindberg-lab/npm-test-package/lib/ServiceLocation";
+import UriParser from "@regionorebrolan/extensions/lib/UriParser";
+import EPiServerServiceProvider from "@regionorebrolan/extensions/lib/EPiServer/ServiceProvider";
+import ServiceLocation from "@regionorebrolan/extensions/lib/ServiceLocation";
 
 function addText(text: string) {
 	let list = document.querySelector("ul");
