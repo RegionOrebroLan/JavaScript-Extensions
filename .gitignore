@@ -1,0 +1,14 @@
+[Bb]in/
+[Oo]bj/
+.vs/
+dist/
+lib/
+node_modules/
+
+*.js
+*.js.map
+*.d.ts
+*.user
+package-lock.json
+
+!Samples/ASP.NET-Core/*.js

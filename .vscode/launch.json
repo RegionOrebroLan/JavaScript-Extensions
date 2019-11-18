@@ -1,0 +1,37 @@
+{
+	// https://go.microsoft.com/fwlink/?linkid=830387
+    "configurations": [
+        {
+            "args": [
+				"--no-timeouts",
+				"--colors",
+				"${workspaceFolder}/test/**/*.ts",
+				"--require",
+				"ts-node/register"
+			],
+			"console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+			"name": "Mocha All",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+			"request": "launch",
+            "type": "node",
+        },
+        {
+            "args": [
+				"--no-timeouts",
+				"--colors",
+				"${file}",
+				"--require",
+				"ts-node/register"
+			],
+			"console": "integratedTerminal",
+			"internalConsoleOptions": "neverOpen",
+            "name": "Mocha Current File",
+			"program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+			"request": "launch",
+			"sourceMaps": true,
+			"type": "node"
+        }
+	],
+	"version": "0.2.0"
+}

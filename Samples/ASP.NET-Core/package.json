@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"@regionorebrolan/extensions": "0.0.0-alpha"
+	},
+	"devDependencies": {
+		"del-cli": "^3.0.0",
+		"rollup": "^1.26.3",
+		"rollup-plugin-commonjs": "^10.1.0",
+		"rollup-plugin-node-resolve": "^5.2.0",
+		"rollup-plugin-typescript": "^1.0.1",
+		"tslib": "^1.10.0",
+		"typescript": "^3.7.2",
+		"uglify-js": "3.6.8" 
+	},
+	"private": true,
+	"scripts": {
+		"bundle": "del-cli \"./wwwroot/Scripts\" && rollup -c && uglifyjs wwwroot/Scripts/Index.js --output wwwroot/Scripts/Index.min.js"
+	}
+}

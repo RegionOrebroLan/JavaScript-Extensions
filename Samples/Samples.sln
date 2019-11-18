@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Global", ".Global", "{268F27C8-9D4B-4413-B5C9-2A20E83857A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{B689BBF9-3DB7-489E-97E6-A8303D031559}"
+	ProjectSection(SolutionItems) = preProject
+		..\ReadMe.md = ..\ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Settings", "Settings", "{7AED6FBC-E5D1-44B7-A3E4-1C5F3D81136E}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ASP.NET-Core", "ASP.NET-Core\ASP.NET-Core.csproj", "{023F9D1A-7AA7-4E7F-A030-B52654465073}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{023F9D1A-7AA7-4E7F-A030-B52654465073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{023F9D1A-7AA7-4E7F-A030-B52654465073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{023F9D1A-7AA7-4E7F-A030-B52654465073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{023F9D1A-7AA7-4E7F-A030-B52654465073}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B689BBF9-3DB7-489E-97E6-A8303D031559} = {268F27C8-9D4B-4413-B5C9-2A20E83857A7}
+		{7AED6FBC-E5D1-44B7-A3E4-1C5F3D81136E} = {268F27C8-9D4B-4413-B5C9-2A20E83857A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B82A2DC-F7E2-4CC4-8465-5DA188B3AA79}
+	EndGlobalSection
+EndGlobal
