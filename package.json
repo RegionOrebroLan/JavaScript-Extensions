@@ -3,20 +3,20 @@
 		"name": "Region Orebro lan"
 	},
 	"dependencies": {
-		"@types/core-js": "2.5.2",
+		"@types/core-js": "2.5.5",
 		"@types/urijs": "1.19.5",
-		"core-js": "3.4.1",
+		"core-js": "3.22.5",
 		"urijs": "1.19.11"
 	},
 	"description": "Library with JavaScript additions and extensions.",
 	"devDependencies": {
-		"@types/chai": "4.2.4",
-		"@types/mocha": "5.2.7",
-		"chai": "4.2.0",
+		"@types/chai": "4.3.1",
+		"@types/mocha": "9.1.1",
+		"chai": "4.3.6",
 		"del-cli": "3.0.0",
-		"mocha": "6.2.2",
-		"ts-node": "8.4.1",
-		"typescript": "3.7.2"
+		"mocha": "10.0.0",
+		"ts-node": "10.7.0",
+		"typescript": "3.8.3"
 	},
 	"keywords": [
 		"Collections",
