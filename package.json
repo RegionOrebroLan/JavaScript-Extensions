@@ -53,5 +53,5 @@
 		"build": "del-cli \"./lib\" && tsc",
 		"test": "mocha -r ts-node/register test/**/*.ts"
 	},
-	"version": "0.0.0-alpha"
+	"version": "0.0.1-alpha"
 }
