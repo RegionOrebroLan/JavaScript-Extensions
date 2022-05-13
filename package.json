@@ -4,19 +4,19 @@
 	},
 	"dependencies": {
 		"@types/core-js": "2.5.2",
-		"@types/urijs": "1.19.4",
+		"@types/urijs": "1.19.5",
 		"core-js": "3.4.1",
-		"urijs": "1.19.2"
+		"urijs": "1.19.11"
 	},
 	"description": "Library with JavaScript additions and extensions.",
 	"devDependencies": {
-		"@types/chai": "^4.2.4",
-		"@types/mocha": "^5.2.7",
-		"chai": "^4.2.0",
-		"del-cli": "^3.0.0",
-		"mocha": "^6.2.2",
-		"ts-node": "^8.4.1",
-		"typescript": "^3.7.2"
+		"@types/chai": "4.2.4",
+		"@types/mocha": "5.2.7",
+		"chai": "4.2.0",
+		"del-cli": "3.0.0",
+		"mocha": "6.2.2",
+		"ts-node": "8.4.1",
+		"typescript": "3.7.2"
 	},
 	"keywords": [
 		"Collections",

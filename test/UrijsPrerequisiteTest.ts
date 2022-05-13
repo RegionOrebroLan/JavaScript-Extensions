@@ -11,8 +11,8 @@ describe("URI.js prerequisite tests", () => {
 			expect(() => {new Uri(value);}).to.throw("null is not a valid argument for URI");
 		});
 		it("whitespace-test", () => {
-			expect(new Uri(" ").toString()).equal(" ");
-			expect(new Uri("     ").toString()).equal("     ");
+			expect(new Uri(" ").toString()).equal("");
+			expect(new Uri("     ").toString()).equal("");
 		});
 	});
 	describe("direct construction", () => {
@@ -24,8 +24,8 @@ describe("URI.js prerequisite tests", () => {
 			expect(() => {Uri(value);}).to.throw("null is not a valid argument for URI");
 		});
 		it("whitespace-test", () => {
-			expect(Uri(" ").toString()).equal(" ");
-			expect(Uri("     ").toString()).equal("     ");
+			expect(Uri(" ").toString()).equal("");
+			expect(Uri("     ").toString()).equal("");
 		});
 	});
 	describe("parseQuery()", () => {
